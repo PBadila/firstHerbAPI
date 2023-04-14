@@ -1,0 +1,51 @@
+[
+    {
+      "id": 1,
+      "name": "Lavender",
+      "botanical_name": "Lavandula angustifolia",
+      "description": "Lavender is a fragrant herb with a sweet, floral flavor. It is commonly used in aromatherapy and has been found to have a calming effect on the mind and body.",
+      "consumption_method": "Lavender can be brewed into a tea, added to baked goods, or used as a seasoning for savory dishes.",
+      "herbal_actions": ["calming", "antidepressant", "antibacterial"]
+    },
+    {
+      "id": 2,
+      "name": "Chamomile",
+      "botanical_name": "Matricaria chamomilla",
+      "description": "Chamomile is a gentle herb with a sweet, apple-like flavor. It is often used to promote relaxation and reduce anxiety.",
+      "consumption_method": "Chamomile can be brewed into a tea or added to baked goods.",
+      "herbal_actions": ["calming", "anti-inflammatory", "antispasmodic"]
+    },
+    {
+      "id": 3,
+      "name": "Peppermint",
+      "botanical_name": "Mentha × piperita",
+      "description": "Peppermint is a refreshing herb with a strong, cooling flavor. It is commonly used to soothe digestive issues and freshen breath.",
+      "consumption_method": "Peppermint can be brewed into a tea, added to baked goods, or used as a seasoning for savory dishes.",
+      "herbal_actions": ["digestive aid", "antimicrobial", "pain relief"]
+    },
+    {
+      "id": 4,
+      "name": "Rosemary",
+      "botanical_name": "Rosmarinus officinalis",
+      "description": "Rosemary is an aromatic herb with a woody, pine-like flavor. It is often used to add flavor to savory dishes and has been found to have antioxidant properties.",
+      "consumption_method": "Rosemary can be used as a seasoning for savory dishes or brewed into a tea.",
+      "herbal_actions": ["antioxidant", "memory enhancement", "anti-inflammatory"]
+    },
+    {
+      "id": 5,
+      "name": "Ginger",
+      "botanical_name": "Zingiber officinale",
+      "description": "Ginger is a spicy herb with a pungent, citrus-like flavor. It is commonly used to aid digestion and reduce inflammation.",
+      "consumption_method": "Ginger can be used as a seasoning for savory dishes, brewed into a tea, or added to baked goods.",
+      "herbal_actions": ["digestive aid", "anti-inflammatory", "pain relief"]
+    },
+    {
+      "id": 6,
+      "name": "Turmeric",
+      "botanical_name": "Curcuma longa",
+      "description": "Turmeric is a brightly colored herb with a warm, earthy flavor. It is often used as a natural anti-inflammatory and has been found to have antioxidant properties.",
+      "consumption_method": "Turmeric can be used as a seasoning for savory dishes or brewed into a tea.",
+      "herbal_actions": ["antioxidant", "anti-inflammatory", "liver support"]
+    }
+]
+  

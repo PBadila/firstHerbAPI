@@ -1,0 +1,53 @@
+[
+    {
+        "id": "1",
+        "first name": "Geraldine",
+        "last name": "Sanders",
+        "email": "vehicula.pellentesque.tincidunt@icloud.edu",
+        "phone": "1-968-396-5811",
+        "address": "Ap #682-6746 In Rd.",
+        "city": "Arequipa",
+        "postalZip": "3334"
+    },
+    {
+        "id": "2",
+        "first name": "Driscoll",
+        "last name": "Walters",
+        "email": "neque@outlook.couk",
+        "phone": "1-635-344-4686",
+        "address": "Ap #567-9870 Ligula Street",
+        "city": "San Antonio",
+        "postalZip": "85175-085"
+    },
+    {
+        "id": "3",
+        "first name": "Tallulah",
+        "last name": "Powers",
+        "email": "id@aol.ca",
+        "phone": "1-857-805-3533",
+        "address": "Ap #539-8203 Est, Avenue",
+        "city": "Cascavel",
+        "postalZip": "448253"
+    },
+    {
+        "id": "4",
+        "first name": "Chloe",
+        "last name": "Flynn",
+        "email": "tortor@icloud.net",
+        "phone": "1-924-436-3713",
+        "address": "5829 Aliquam Rd.",
+        "city": "Sarpsborg",
+        "postalZip": "5306"
+    },
+    {
+        "id": "5",
+        "first name": "Ciara",
+        "last name": "Crawford",
+        "email": "magna@protonmail.org",
+        "phone": "1-444-586-4265",
+        "address": "888-1804 Cursus, Street",
+        "city": "Kalgoorlie-Boulder",
+        "postalZip": "86068"
+    }
+   
+]
