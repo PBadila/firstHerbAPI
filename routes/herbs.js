@@ -69,6 +69,34 @@ router.get('/commonName/:name', (req,res,next) =>{
 })
 })
 
+//GET herbs by herbal action
+
+router.get('/herbalAction/:action', (req,res,next) =>{
+  const {action} = req.params
+
+ 
+  fs.readFile(HERBS_FILE, 'utf8', (err,data) => {
+    if(err){
+      console.error(err)
+      res.status(500).send('There was a problem reading this file.')
+      return 
+    }
+    //change data into an array so that we can perform array methods on it, in this case find()
+    const herbs = JSON.parse(data)
+    
+    let actionList = []
+    //now find the one user that matches the id that was entered
+    herbs.forEach(herb => {
+      if(herb.herbal_actions.includes(action)){
+        actionList.push(herb)
+      }
+    });
+  
+  
+  res.json(actionList)
+})
+})
+
 
 
 //POST a new herb

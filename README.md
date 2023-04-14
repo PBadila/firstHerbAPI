@@ -45,6 +45,38 @@ Here are the request methods:
 }
 ```
 
+`/herbs/herbalAction/:action` - GET
+- Returns a single herb by its id
+- example response from `/herbs/herbalAction/calming`:
+```
+ [
+  {
+    "id": 1,
+    "name": "Lavender",
+    "botanical_name": "Lavandula angustifolia",
+    "description": "Lavender is a fragrant herb with a sweet, floral flavor. It is commonly used in aromatherapy and has been found to have a calming effect on the mind and body.",
+    "consumption_method": "Lavender can be brewed into a tea, added to baked goods, or used as a seasoning for savory dishes.",
+    "herbal_actions": [
+      "calming",
+      "antidepressant",
+      "antibacterial"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Chamomile",
+    "botanical_name": "Matricaria chamomilla",
+    "description": "Chamomile is a gentle herb with a sweet, apple-like flavor. It is often used to promote relaxation and reduce anxiety.",
+    "consumption_method": "Chamomile can be brewed into a tea or added to baked goods.",
+    "herbal_actions": [
+      "calming",
+      "anti-inflammatory",
+      "antispasmodic"
+    ]
+  }
+]
+```
+
 `/herbs` - POST
 - Accepts an `herb` object
 - example object:
